@@ -17,8 +17,8 @@ body{
     margin: 0;
 }
 .container{
-    border: 1px solid red;
-    margin: 90px 150px;
+    border: 2px solid red;
+    margin: 50px 200px;
 }
 
 /* header */
@@ -34,4 +34,33 @@ ul{
     justify-items: end;
     justify-content: end;
     color: var(--Darkgrayishblue);
+}
+/* main */
+main{
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+    height: 500px;
+    gap: 30px;
+}
+.main-left-side {
+    width: 100%;
+    border: 3px solid pink;
+}
+.main-left-side img{
+    width: 100%;
+    height: 80%;
+}
+.main-left-side-mini-2-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.main-left-side-mini-2-grid div{
+    width: 100%;
+    height: 100%;
+    border: 3px solid red;
+}
+.main-right-side{
+    width: 100%;
+    border: 3px solid red;
+
 }
